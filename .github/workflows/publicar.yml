@@ -1,7 +1,7 @@
 name: Publicar imagen del docente
 on:
   push:
-    tags: ["v*"]
+    tags: ["[0-9]*"]
 permissions: { contents: read, packages: write }
 jobs:
   publish:
