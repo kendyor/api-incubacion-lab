@@ -8,6 +8,8 @@
     // Docker real dentro del Codespace (build, run, compose, registry local)
     "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": false },
     "ghcr.io/devcontainers/features/github-cli:1": {},
+    // Permite al docente entrar con `gh codespace ssh` para dar soporte o probar
+    "ghcr.io/devcontainers/features/sshd:1": {},
     // Se usa desde la sesión 6 (AWS)
     "ghcr.io/devcontainers/features/aws-cli:1": {}
   },
